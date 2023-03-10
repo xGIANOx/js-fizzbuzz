@@ -1,23 +1,19 @@
-// const ulElement =document.querySelector("ul")
+const ulElement = document.querySelector("ul")
 
 
-for (let i = 1; i <= 100; i++){
-    console.log(i)
-    
-    let number = i
-    let multiple3 = 3
-    let multiple5 = 5
-    if (number % multiple3 === 0 && number % multiple5 === 0){
-       // const liElement = `<li>${i}</li>`
-       // ulElement.innerHTML += liElement
-        console.log('fizzbuzz')
-     } else if (number % multiple5 === 0){
-     console.log('buzz')
-     } else if (number % multiple3 === 0) {
-        console.log('fizz')
-     }
+
+
+for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("FizzBuzz");
+    } else if (i % 3 === 0) {
+      console.log("Fizz");
+    } else if (i % 5 === 0) {
+      console.log("Buzz");
+      const liElement = `<li>("Buzz")</li>`
+      liElement.innerHTML += liElement
+    } else {
+      console.log(i);
       
-        
-     
-
-}
+    }
+  }
