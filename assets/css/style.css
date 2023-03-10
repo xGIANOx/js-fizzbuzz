@@ -1,16 +1,20 @@
+.body_color{
+    background-color: #083b4c;
+}
+
 .fizzbuzz{
-    background-color: rgb(217, 57, 57);
+    background-color: #f0466f;
     padding: 1rem;
 }
 
 .fizz{
-    background-color: rgb(61, 171, 121);
+    background-color: #0cd6a1;
     padding: 1rem;
 
 }
 
 .buzz{
-    background-color: rgb(239, 222, 33);
+    background-color: #ffd166;
     
     padding: 1rem;
 
@@ -18,7 +22,7 @@
 
 .number{
     padding: 1rem;
-    background-color: rgb(69, 90, 167);
+    background-color: #1389b2;
 }
 
 .col{
@@ -26,4 +30,7 @@
     width: 100px;
     height: 100px;
     aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
