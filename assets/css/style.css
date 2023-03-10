@@ -1,0 +1,22 @@
+.fizzbuzz{
+    background-color: rgb(217, 57, 57);
+    padding: 1rem;
+}
+
+.fizz{
+    background-color: rgb(61, 171, 121);
+    padding: 1rem;
+
+}
+
+.buzz{
+    background-color: rgb(239, 222, 33);
+    
+    padding: 1rem;
+
+}
+
+.number{
+    padding: 1rem;
+    background-color: rgb(69, 90, 167);
+}
